@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)http://127.0.0.1:5500/index.html?user_name=swetha&user_email=swethanugoori05%40gmail.com&user_message=nothing# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact section </title>
+    <link rel="stylesheet" href="./contact section1_files/style.css">
+    <link rel="stylesheet" href="./contact section1_files/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="contact section"></section><div>
+
+            <h2 class="section-title">
+                lets talk <br>about your project
+            </h2>
+            <div calss="conTact-page container grid">
+                <form action="http://127.0.0.1:5500/index.html?user_name=swetha&amp;user_email=swethanugoori05%40gmail.com&amp;user_message=nothing" class="contact-form grid" id="contact-form">
+                    <div class="contact-card grid">
+                        <div class="contact-card">
+                            <input type="text" name="user_name" id="name" required="" aria-placeholder="enter your name" class="contact-input">
+                            <label for="name" class="contact-label">Your Name</label>
+</div>
+                        <div class="contact-card">
+                            <input type="email" name="user_email" id="email" required="" aria-placeholder="example@domain.com" class="contact-input">
+                            <label for="email" class="contact-label">Your Email</label></div>
+
+                            <div class="contact-card contact-area">
+                                <textarea name="user_message" id="message" required="" placeholder="please enter your message" class="contact-input"></textarea>
+
+                         <div><label for="message" class="contact-label">Your Message</label>
+                        </div>
+                            </div>
+                            <button type="submit" class="contact-send button">Send Message</button>
+                
+
+                <div class="social-icons">
+                    <a href="http://127.0.0.1:5500/index.html?user_name=swetha&amp;user_email=swethanugoori05%40gmail.com&amp;user_message=nothing#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="http://127.0.0.1:5500/index.html?user_name=swetha&amp;user_email=swethanugoori05%40gmail.com&amp;user_message=nothing#" target="_blank"><i class="bi bi-twitter"></i>
+                        </a>
+                            <a href="http://127.0.0.1:5500/index.html?user_name=swetha&amp;user_email=swethanugoori05%40gmail.com&amp;user_message=nothing#" target="_blank"><i class="bi bi-github"></i></a>
+                            <a href="http://127.0.0.1:5500/index.html?user_name=swetha&amp;user_email=swethanugoori05%40gmail.com&amp;user_message=nothing#" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div></form>
+        
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</div></div></body></html>
